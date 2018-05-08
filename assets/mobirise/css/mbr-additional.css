@@ -29,10 +29,10 @@ body {
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
-  font-size: 6rem;
+  font-size: 2rem;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 9.6rem;
+  font-size: 3.2rem;
 }
 .display-4 {
   font-family: 'Dosis', sans-serif;
@@ -67,9 +67,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 4.8rem;
-    font-size: calc( 2.75rem + (6 - 2.75) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.75rem + (6 - 2.75) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 4.8rem;
@@ -1758,6 +1758,33 @@ body {
 .cid-qRuUCHg0gJ .nav-link:hover,
 .cid-qRuUCHg0gJ .dropdown-item:hover {
   color: #767676 !important;
+}
+.cid-qRuWxudTMP {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-qRuWxudTMP .title {
+  margin-bottom: 2rem;
+}
+.cid-qRuWxudTMP .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-qRuWxudTMP a:not([href]):not([tabindex]) {
+  color: #fff;
+  border-radius: 3px;
+}
+.cid-qRuWxudTMP a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
+}
+.cid-qRuWxudTMP .multi-horizontal {
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  max-width: 100%;
+}
+.cid-qRuWxudTMP .input-group-btn {
+  display: block;
+  text-align: center;
 }
 .cid-qRuGB93Wwb .navbar {
   background: #ffffff;
